@@ -34,6 +34,6 @@ Windows PowerShell.
 
 Можно указать другую БД через переменную окружения
 
-PowerShell:
+PowerShell.
 
 `$env:DATABASE_URL="sqlite:///test.db"; alembic upgrade head`
