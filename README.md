@@ -1,18 +1,18 @@
-## Бронирование мест
+## Бронирование мест.
 
-Небольшой учебный проект = места, сеансы и брони. Ограничение - одно место можно забронировать только один раз в рамках одного сеанса (`UNIQUE(session_id, place_id)`)
+Небольшой учебный проект - места, сеансы и брони. Ограничение - одно место можно забронировать только один раз в рамках одного сеанса (`UNIQUE(session_id, place_id)`).
 
-### Установка
+### Установка.
 
 `python -m venv .venv`
 
-Windows PowerShell
+Windows PowerShell.
 
 `.\.venv\Scripts\Activate.ps1`
 
 `pip install -r requirements.txt`
 
-### Запуск
+### Запуск.
 
 `python main.py init-db`
 
@@ -26,9 +26,9 @@ Windows PowerShell
 
 `python main.py report`
 
-### Alembic
+### Alembic.
 
-Миграции нужны, чтобы поднимать/обновлять схему БД
+Миграции нужны, чтобы поднимать/обновлять схему БД.
 
 `alembic upgrade head`
 
