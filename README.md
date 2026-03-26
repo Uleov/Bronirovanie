@@ -28,6 +28,10 @@ Windows PowerShell.
 
 `python main.py report`
 
+### Тесты.
+
+`python -m unittest discover -s tests -v`
+
 ### Alembic.
 
 Миграции нужны, чтобы поднимать/обновлять схему БД.
